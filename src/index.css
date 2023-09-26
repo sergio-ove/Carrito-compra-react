@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    list-style: none;
+    color: black;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+div .div-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.div-img section{
+    width: 18rem;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(228, 234, 236, 0.812);
+}
+
+
+.card-body{
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navPropio{
+    border-radius: 5px;
+}
+
+.card{
+    width: 22rem;
+}
+
+.mainCategorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.containerCategorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.h1Categoria{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pTitulo{
+    font-size: 25px;
+}
+
+.articleProduct{
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    text-align: center;
+    font-size: 17px;
+}
+
+.articleProduct h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.articleProduct div{
+    background-color: rgba(228, 234, 236, 0.812);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttonReturn{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+section img{
+    margin-bottom: 5px;
+   
+}
+
+.divRating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRating img{
+    width: 15px;
+    margin-bottom: 16px;
+    margin-left: 4px;
+}
